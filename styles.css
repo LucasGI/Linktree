@@ -1,4 +1,8 @@
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 #FotoPerfil
 {
@@ -141,6 +145,7 @@ a{
       color: white;
       margin-left: 1rem;
       text-decoration: none;
+
     }
 
     .navbar nav a:hover {
@@ -209,12 +214,6 @@ a{
       text-decoration: underline;
     }
 
-      * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
 
 
 
@@ -254,5 +253,32 @@ a{
   flex-direction: column;
 }
 
+@media(max-width: 600px){
 
+
+    .contenedor {
+  display: flex;
+  gap: 1rem;
+  padding: 2rem;
+  width: 90%;
+
+}
+
+.fila {
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.VistaPrevia {
+  
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+  
+ 
+}
 
