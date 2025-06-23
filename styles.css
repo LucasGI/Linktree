@@ -65,6 +65,8 @@ body {
     justify-content: flex-start;
     min-height: 100vh;
     background-image: url(Imagenes/Fondo\ ondulado\ blanco\ y\ negro.jpg);
+    position: relative;
+    padding-bottom: 150px;
   }
 
 
@@ -177,6 +179,7 @@ a{
   flex-direction: column;
   overflow: hidden;
   transition: transform 0.2s;
+  
 }
 
 
@@ -293,8 +296,20 @@ a{
 
   display: flex;
   flex-direction: column;
-
   
 }
 
+body{
+  padding-bottom: 750px;
+}
+
+
+}
+
+footer{
+
+  position: absolute;
+  bottom: 0;
+  
+  
 }
